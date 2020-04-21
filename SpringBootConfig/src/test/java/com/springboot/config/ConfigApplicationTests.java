@@ -1,10 +1,10 @@
-package com.springboot.start;
+package com.springboot.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StartApplicationTests {
+class ConfigApplicationTests {
 
     @Test
     void contextLoads() {
