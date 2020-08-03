@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f84d3120-468c-403a-8070-596ff5cdf00c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/resources/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/annotation/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/annotation/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/dao/SysLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/dao/SysLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/dao/impl/SysLogDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/dao/impl/SysLogDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/domain/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/domain/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/util/HttpContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/util/HttpContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/java/com/springboot/util/IPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/java/com/springboot/util/IPUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootAOPLog/src/main/resources/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/7.SpringBootAOPLog/src/main/resources/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/java/com/springboot/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/java/com/springboot/config/ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/java/com/springboot/config/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/java/com/springboot/config/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/java/com/springboot/config/pojo/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/java/com/springboot/config/pojo/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/java/com/springboot/config/pojo/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/java/com/springboot/config/pojo/ConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/java/com/springboot/config/pojo/TestConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/java/com/springboot/config/pojo/TestConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/main/resources/person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/main/resources/person.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootConfig/src/test/java/com/springboot/config/ConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.SpringBootConfig/src/test/java/com/springboot/config/ConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/dao/impl/StudentDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/dao/impl/StudentDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/java/com/springboot/service/impl/StudentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/java/com/springboot/service/impl/StudentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplate/src/main/resources/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/resources/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/MysqlStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/MysqlStudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/OracleStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/OracleStudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/impl/MysqlStudentDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/impl/MysqlStudentDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/impl/OracleStudentDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/dao/impl/OracleStudentDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/datasource/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/datasource/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/service/impl/StudentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/service/impl/StudentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/resources/mysql_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/resources/mysql_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/src/main/resources/oracle_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/resources/oracle_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/java/com/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/datasource/MysqlDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/datasource/MysqlDatasourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/datasource/OracleDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/datasource/OracleDatasourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/mysqldao/MysqlStudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/mysqldao/MysqlStudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/oracledao/OracleStudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/oracledao/OracleStudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/java/com/springboot/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/resources/mapper/mysql/MysqlStudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/resources/mapper/mysql/MysqlStudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/resources/mapper/oracle/OracleStudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringBootMyBatisMultiDataSource/src/main/resources/mapper/oracle/OracleStudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/resources/mysql_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/resources/mysql_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/src/main/resources/oracle_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/6.SpringBootJdbcTemplateMultiDataSource/src/main/resources/oracle_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/java/com/springboot/mybatis/MybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/java/com/springboot/mybatis/MybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/java/com/springboot/mybatis/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/java/com/springboot/mybatis/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/java/com/springboot/mybatis/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/java/com/springboot/mybatis/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/java/com/springboot/mybatis/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/java/com/springboot/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/java/com/springboot/mybatis/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/java/com/springboot/mybatis/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/java/com/springboot/mybatis/service/impl/StudentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/main/java/com/springboot/mybatis/service/impl/StudentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/main/resources/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4.SpringBootJdbcTemplate/src/main/resources/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMybatis/src/test/java/com/springboot/mybatis/MybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.SpringBootMybatis/src/test/java/com/springboot/mybatis/MybatisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootStart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1.SpringBootStart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootStart/src/main/java/com/springboot/start/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.SpringBootStart/src/main/java/com/springboot/start/StartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootStart/src/main/java/com/springboot/start/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.SpringBootStart/src/main/java/com/springboot/start/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootStart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/1.SpringBootStart/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootStart/src/test/java/com/springboot/start/StartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.SpringBootStart/src/test/java/com/springboot/start/StartApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/src/main/java/com/springboot/ThymeleafApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/src/main/java/com/springboot/ThymeleafApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/src/main/java/com/springboot/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/src/main/java/com/springboot/bean/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/src/main/java/com/springboot/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/src/main/java/com/springboot/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootThymeleaf/src/main/resources/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/8.SpringBootThymeleaf/src/main/resources/templates/account.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/9.SpringBootRedisCache/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/mapper/StudentMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/StudentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/ApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.SpringBootStart/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.SpringBootStart/src/test/java/com/springboot/start/StartApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-717">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7.SpringBootAOPLog/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/Application.java" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/1.SpringBootStart/pom.xml" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/pom.xml" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/StudentService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program Files (x86)\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/Spring-Boot-Redis-Cache.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-140" />
+    <option name="y" value="37" />
+    <option name="width" value="1206" />
+    <option name="height" value="814" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="1.SpringBootStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="7.SpringBootAOPLog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="9.SpringBootRedisCache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\SpringBoot" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Boot-Redis-Cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f84d3120-468c-403a-8070-596ff5cdf00c" name="Default Changelist" comment="" />
+      <created>1587562941472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587562941472</updated>
+      <workItem from="1587562942694" duration="670000" />
+      <workItem from="1592232033659" duration="396000" />
+      <workItem from="1596465042468" duration="3785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4851000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-140" y="37" width="1206" height="814" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09598604" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.23027718" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/resources/init.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.SpringBootStart/src/test/java/com/springboot/start/StartApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.SpringBootStart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.SpringBootAOPLog/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-717">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/cache/annotation/CachingConfigurerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.SpringBootRedisCache/src/main/java/com/springboot/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
