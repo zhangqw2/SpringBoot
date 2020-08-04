@@ -8,6 +8,9 @@
       <list>
         <option value="$PROJECT_DIR$/9.SpringBootRedisCache/pom.xml" />
         <option value="$PROJECT_DIR$/1.SpringBootStart/pom.xml" />
+        <option value="$PROJECT_DIR$/10.SpringBootEhcacheCache/pom.xml" />
+        <option value="$PROJECT_DIR$/11.SpringBootShiroAuthentication/pom.xml" />
+        <option value="$PROJECT_DIR$/18.SpringBootJackson/pom.xml" />
       </list>
     </option>
   </component>

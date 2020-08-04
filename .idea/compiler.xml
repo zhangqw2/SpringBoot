@@ -6,11 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Boot-Jackson" />
+        <module name="Spring-Boot-Shiro-Authentication" />
         <module name="Spring-Boot-Redis-Cache" />
+        <module name="start" />
+        <module name="Spring-Boot-Ehcache-Cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-Boot-Redis-Cache" target="1.7" />
+      <module name="Spring-Boot-Ehcache-Cache" target="1.8" />
+      <module name="Spring-Boot-Jackson" target="1.8" />
+      <module name="Spring-Boot-Redis-Cache" target="1.8" />
+      <module name="Spring-Boot-Shiro-Authentication" target="1.8" />
+      <module name="start" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-Boot-Ehcache-Cache" options="-parameters" />
+      <module name="Spring-Boot-Jackson" options="-parameters" />
+      <module name="Spring-Boot-Redis-Cache" options="-parameters" />
+      <module name="Spring-Boot-Shiro-Authentication" options="-parameters" />
+      <module name="start" options="-parameters" />
+    </option>
   </component>
 </project>
