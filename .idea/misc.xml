@@ -6,13 +6,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/9.SpringBootRedisCache/pom.xml" />
-        <option value="$PROJECT_DIR$/1.SpringBootStart/pom.xml" />
-        <option value="$PROJECT_DIR$/10.SpringBootEhcacheCache/pom.xml" />
-        <option value="$PROJECT_DIR$/11.SpringBootShiroAuthentication/pom.xml" />
-        <option value="$PROJECT_DIR$/18.SpringBootJackson/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootStart/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootJdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMyBatisMultiDataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootJdbcTemplateMultiDataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootAOPLog/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootThymeleaf/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

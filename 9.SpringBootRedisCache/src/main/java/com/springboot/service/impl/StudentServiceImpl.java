@@ -7,30 +7,26 @@ import com.springboot.bean.Student;
 import com.springboot.mapper.StudentMapper;
 import com.springboot.service.StudentService;
 
-/**
- * 数据服务类
- * @author 张全伟
- */
 @Repository("studentService")
-public class StudentServiceImpl implements StudentService{
+public class StudentServiceImpl implements StudentService {
 
-	@Autowired
-	private StudentMapper studentMapper;
-	
-	@Override
-	public Student update(Student student) {
-		this.studentMapper.update(student);
-		return this.studentMapper.queryStudentBySno(student.getSno());
-	}
+    @Autowired
+    private StudentMapper studentMapper;
 
-	@Override
-	public void deleteStudentBySno(String sno) {
-		this.studentMapper.deleteStudentBySno(sno);
-	}
+    @Override
+    public Student update(Student student) {
+        this.studentMapper.update(student);
+        return this.studentMapper.queryStudentBySno(student.getSno());
+    }
 
-	@Override
-	public Student queryStudentBySno(String sno) {
-		return this.studentMapper.queryStudentBySno(sno);
-	}
+    @Override
+    public void deleteStudentBySno(String sno) {
+        this.studentMapper.deleteStudentBySno(sno);
+    }
+
+    @Override
+    public Student queryStudentBySno(String sno) {
+        return this.studentMapper.queryStudentBySno(sno);
+    }
 
 }

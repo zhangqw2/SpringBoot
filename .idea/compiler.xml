@@ -2,31 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Boot-Jackson" />
-        <module name="Spring-Boot-Shiro-Authentication" />
-        <module name="Spring-Boot-Redis-Cache" />
-        <module name="start" />
-        <module name="Spring-Boot-Ehcache-Cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-Boot-Ehcache-Cache" target="1.8" />
-      <module name="Spring-Boot-Jackson" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="Spring-Boot-AOP-Log" target="1.8" />
+      <module name="Spring-Boot-JdbcTemplate" target="1.8" />
+      <module name="Spring-Boot-JdbcTemplate-MultiDataSource" target="1.8" />
+      <module name="Spring-Boot-MyBatis-MultiDataSource" target="1.8" />
       <module name="Spring-Boot-Redis-Cache" target="1.8" />
-      <module name="Spring-Boot-Shiro-Authentication" target="1.8" />
+      <module name="Spring-Boot-Redis-Cache (1)" target="1.8" />
+      <module name="Spring-Boot-Thymeleaf" target="1.8" />
+      <module name="SpringBootMybatis" target="1.8" />
       <module name="start" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Spring-Boot-Ehcache-Cache" options="-parameters" />
-      <module name="Spring-Boot-Jackson" options="-parameters" />
-      <module name="Spring-Boot-Redis-Cache" options="-parameters" />
-      <module name="Spring-Boot-Shiro-Authentication" options="-parameters" />
+      <module name="Spring-Boot-AOP-Log" options="-parameters" />
+      <module name="Spring-Boot-JdbcTemplate" options="-parameters" />
+      <module name="Spring-Boot-MyBatis-MultiDataSource" options="-parameters" />
+      <module name="Spring-Boot-Redis-Cache" options="" />
+      <module name="Spring-Boot-Redis-Cache (1)" options="-parameters" />
+      <module name="Spring-Boot-Thymeleaf" options="-parameters" />
+      <module name="SpringBootMybatis" options="-parameters" />
+      <module name="config" options="-parameters" />
       <module name="start" options="-parameters" />
     </option>
   </component>

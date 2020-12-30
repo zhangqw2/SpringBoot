@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/1.SpringBootStart" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/10.SpringBootEhcacheCache" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/11.SpringBootShiroAuthentication" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/18.SpringBootJackson" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/9.SpringBootRedisCache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Boot-Redis-Cache/src/main/java" charset="UTF-8" />
   </component>
 </project>
